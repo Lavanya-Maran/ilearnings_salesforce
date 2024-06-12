@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressive Landing Page</title>
+<link rel="stylesheet" href="style.css">
+
+
+<!----------google fonts-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2 ?family=Material+Symbols
++Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+<script src="https://kit.fontawesome.com/e8cd3f8bf9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--------------Header section--------->
+<header>
+    <nav>
+        <img src="./assests/ilearn logo.jpeg" alt="Ilearnings_logo">
+        <ul id="sidemenu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#services">SERVICES </a></li>
+            <li><a href="#acheivements">ACHEIVEMENTS</a></li>
+            <li><a href="#contact">HIRE FROM US</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <button class="login-btn">LOGIN</button>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+</header>
+<!-----------pop-up form------>
+<div class="blur-bg-overlay"></div>
+<div class="form-popup">
+    <span class="close-btn "><i class="fas fa-times"></i></span>
+    <div class="form-box login">
+        <div class="form-details">
+            <h2>Welcome Back</h2>
+            <p>please login using your personal information to stay connected with us</p>
+        </div>
+        <div class="form-content">
+            <h2>LOGIN</h2>
+            <form action="#">
+                <div class="input-field">
+                    <input type="text" required>
+                    <label >Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" required>
+                    <label >Password</label>
+                </div>
+                <a href="#" class="forgot-pass">Forgot password ?</a>
+                <button type="submit">LOGIN</button>
+            </form>
+            <div class="bottom-link">
+                Don't have an account ?
+                <a href="#" id="signup-link">Signup</a>
+            </div>
+        </div>
+    </div>
+    <div class="form-box signup">
+        <div class="form-details">
+            <h2>Create Account</h2>
+            <p>To become a part of our community, Please sign up using your personal information.</p>
+        </div>
+        <div class="form-content">
+            <h2>SIGNUP</h2>
+            <form action="#">
+                <div class="input-field">
+                    <input type="text" required>
+                    <label >Enter your Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" required>
+                    <label >Create Password</label>
+                </div>
+                <div class="policy-text">
+                    <input type="checkbox" id="policy">
+                    <label for="policy">
+                        I agree the 
+                        <a href="#">Terms & Conditions</a>
+                    </label>
+                </div>
+                <button type="submit">SIGN UP</button>
+            </form>
+            <div class="bottom-link">
+                Already have an account ?
+                <a href="#" id="login-link">Login</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------Home section--------->
+
+<section id="home" class="hero">
+     <h1>Welcome to ILEARNINGS' Salesforce Live Training Program</h1></marquee>
+     <p>Master IT Excellence with Precision Training <br><br>
+        Elevate Your Skills with Comprehensive IT Courses Tailored for Success</p>
+        <div class="button">
+            <a href="#features" class="btn">Learn More</a>
+        </div>
+   
+</section>
+
+<!----------------features------------->
+<section id="features" class="features">
+    <h2>Our Features</h2>
+    <div class="feature-item">
+        <img src="./assests/sales1.jpg" alt="">
+        <h3>Salesforce Overview</h3>
+        
+        <p>Salesforce training equips you with an in-depth understanding of the top Customer Relationship Management (CRM) platform worldwide, known as Salesforce. 
+            </p>
+        
+    </div>
+    <div class="feature-item">
+        <h3>What do we provide? </h3>
+        <p>This training introduces learners to the dynamics of managing customer relationships effectively and 
+            leveraging Salesforce's tools to drive business growth.</p>
+            <p>Learn Online,Get hands-on experience with self-paced training.
+                Learn in Class, Get in-depth training from our experts in live classes and workshops.</p>
+    </div>
+</section>
+
+<!------------services-->
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">Our Services</h2>
+        <div class="services-list">
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h3>Salesforce training for End-user</h3>
+                <p>Ilearnings' Salesforce certified trainers help end users attain an in-depth understanding of the Salesforce
+                    CRM platform,its functionalities to leverage the optimum business benefits.
+                </p>
+                <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-crop"></i>
+              <h3>Salesforce training for Administration</h3>
+                <p>This program will equip you with the required skills to implement, configure, and manage both Salesforce Sales and Service Clouds. 
+                    You can build your credentials in the Salesforce world by mastering the core management features of the world's most popular CRM tool.
+                </p>
+                <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h3>Salesforce training for Development</h3>
+                <p>Salesforce Developer is one of most demanding skill in Salesforce industries. A Salesforce Developer is a programmer who builds Salesforce Application on various PAAS platforms.
+                 Salesforce Developer is one who used to write the code on Salesforce platform using Apex, Java Script, Aura and Lightning Web Components.
+                </p>
+                <a href="#">Learn more</a>
+             </div>
+        </div>
+    </div>
+</div>
+<!--------acheivement------->
+<div id="acheivements">
+    <div class="container">
+        <h2 class="sub-title">Our Acheivements</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="./assests/review.jpeg" alt="">
+            </div>
+            <div class="work">
+                <img src="./assests/review 1.png" alt="">
+            </div>
+            <div class="work">
+                <img src="./assests/review 2.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------contact------->
+
+<section id="contact" class="contact">
+    <div class="submit">
+    <h2>Hire from Us</h2>
+    <p>Do you wanna get hired from us? <br>What are you waiting for <i class="fa-solid fa-face-smile"></i> ,Fill the required fields out</p>
+    <form name="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Name" required>
+        <input type="email" name="Email" placeholder="Email" required>
+        <textarea name="Message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    <span id="msg"></span>
+</div>
+</section>
+
+<footer>
+    <p>All rights reserved &copy; <span id="current-year"></span> Ilearnings. </p>
+    <p>For further updates, FOLLOW US ON</p>
+     <div class="icons">
+        <a href="https://www.linkedin.com/company/ilearningscareer/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/ilearningss/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/iLearnings/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@iLearnings" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    
+     </div>
+</footer>
+
+<script src="script.js">
+    // Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+</script>
+
+<!--drop down menu---->
+<script>
+    var sideopt = document.getElementById("sidemenu");
+  
+    function openmenu(){
+      sideopt.style.right= "0";
+    }
+    function closemenu(){
+      sideopt.style.right= "-200px";
+    }
+  </script>
+  <!---------google sheet------>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx-Bn3pO77qETFc1i-H65fn8KdC19PTyDONBIt3L6eBmzbJJV7ZS13nOGRmmKq8aVacGQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully!"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+<!------------footer----->
+   <script>
+    //get current year
+    const currentYear = new Date().getFullYear();
+
+   // Insert the current year into the span with id 'current-year'
+    document.getElementById('current-year').textContent = currentYear;
+   </script>
+
+<script>
+    
+    const showPopupBtn= document.querySelector(".login-btn");
+    const formPopup= document.querySelector(".form-popup");
+    const hidePopupBtn= document.querySelector(".form-popup .close-btn");
+    const loginSignupLink = document.querySelectorAll(".form-box .bottom-link a");
+    //show popup
+    showPopupBtn.addEventListener("click",() =>{
+    document.body.classList.toggle("show-popup");
+});
+// & hide popup
+    hidePopupBtn.addEventListener("click",() =>showPopupBtn.click());
+
+    loginSignupLink.forEach(link =>{
+        link.addEventListener("click",(e) =>{
+            e.preventDefault();
+            formPopup.classList[link.id === "signup-link" ? 'add' : 'remove']("show-signup");
+        });
+    });
+</script>
+
+</body>
+</html>
