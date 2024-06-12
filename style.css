@@ -12,6 +12,7 @@ header {
     padding: 20px;
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 header img{
     border-radius: 50%;
@@ -22,8 +23,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-} 
+    padding: fixed;
+}
+
 nav ul {
     list-style-type: none;
     margin-top: 1%;
@@ -368,20 +370,36 @@ form button:hover{
     grid-gap:40px;
     margin-top: 50px;
 }
+.work-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition:background 0.5s, transform 0.5s;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.work-list div:hover{
+    background:#0097a7;
+    transform: translateY(-10px);
+}
 .work{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
 .work img{
+    z-index: 2;
     width: 100%;
     border-radius: 10px;
     display: block;
-    transition: transform 0.5s;
+    transition: ;
 }
-.work:hover img{
-    transform: scale(1.1);
-}
+
 
 /*------contact------*/
 .contact {
