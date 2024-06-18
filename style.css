@@ -485,8 +485,10 @@ nav .fas{
 
 /* Media Queries */
 @media (max-width: 768px) {
+    
+        
     .hero{
-        background-image: url(./assests/phone.jpg);
+        background-image: url(./assests/sales3.jpg);
         background-size: cover;
     }
     .hero h1 {
